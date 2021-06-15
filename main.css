@@ -1,0 +1,85 @@
+/*Uses Robot Font from Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+:root {
+    --primary: #267AE9;
+    --warning: #FABB04;
+    --error: #e73b2b;
+    --success: #5BB974;
+    --gray: #767676;
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.primary{
+    background: var(--primary);
+}
+
+.warning{
+    background: var(--warning);
+}
+
+.error{
+    background: var(--error);
+}
+
+.success{
+    background: var(--success);
+}
+
+button {
+    border: none;
+    padding: 0.5rem;
+    color: white;
+    border-radius: 0.25rem;
+}
+
+button.dark {
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: var(--primary);
+}
+
+a.primary {
+    color: var(--primary);
+    background: none;
+}
+
+a.success {
+    color: var(--success);
+    background: none;
+}
+
+a.warning {
+    color: var(--warning);
+    background: none;
+}
+
+a.error {
+    color: var(--error);
+    background: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+hr {
+    border: none;
+    border-bottom: 1px solid var(--gray);
+}
+
+p{
+    text-align: justify;
+}
+
+input {
+    border: 1px solid var(--gray);
+    border-radius: 4px;
+    padding: 0.25rem;
+}
